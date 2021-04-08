@@ -1,8 +1,8 @@
-$LOAD_PATH.unshift(file.dirname(__FILE__))
+$LOAD_PATH.unshift(File.dirname(__FILE__))
 
 require 'dotenv'
 Dotenv.load
 
-require 'heka_ruby'
+require 'main.rb'
 
 HekaRuby::Bot.run
