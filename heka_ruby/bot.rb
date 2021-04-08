@@ -1,6 +1,6 @@
 module HekaRuby
   class Bot < SlackRubyBot::Bot
-    help do 
+    help do
       title 'Heka Ruby Bot'
       desc 'This is bot about Ruby vedios'
 
